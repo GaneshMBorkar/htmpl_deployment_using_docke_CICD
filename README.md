@@ -5,4 +5,4 @@ Uses:
 * Pipeline deletes unused images and exited containers. 
 * Starts the container if it is not running.
 
-* Sample images show the pipeline details.
+*  Image folder show the pipeline details.
