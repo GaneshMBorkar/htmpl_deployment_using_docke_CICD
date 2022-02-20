@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        git([url: 'http://10.150.244.100:5050/root/devops_cicd', branch: 'master', credentialsId: 'b01f7e5a-fa56-486d-919c-757abbcb4c28'])
+        git([url: 'https://github.com/GaneshMBorkar/devops_cicd', branch: 'master', credentialsId: 'b01f7e5a-fa56-486d-919c-757abbcb4c28'])
 
       }
     }
